@@ -1,0 +1,360 @@
+<html>
+  <header>
+    <title>CSS cheat sheet</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet"> 
+  </header>
+
+  <body>
+    <h1>CSS cheat sheet</h1>
+
+    <div class="text">
+    <table>
+      <h2 colspan="3">Text styling</h2>
+      <tbody>
+        <tr>
+          <th>selector</th>
+          <th>function</th>
+          <th>example</th>
+        </tr>
+
+        <th colspan="3">Font:</th>
+      
+
+        <tr>
+          <td>font-family</td>
+          <td>used to determin what font the text will use</td>
+          <td>font-family: "Times new Roman";</td>
+        </tr>
+
+        <tr>
+          <td>Font-size</td>
+          <td>used to determin how big the text will appear on screen and 
+              is set in pixels</td>
+          <td>font-size: 18px;</td>
+        </tr>
+
+        <tr>
+          <td>font-weight</td>
+          <td>determines how bold the text will appear in the web browser</td>
+          <td>font-weight: bold;</td>
+        </tr>
+
+        <tr>
+          <td>font-style</td>
+          <td>determines if the text is italicised or not</td>
+          <td>font-style: italic;</td>
+        </tr>
+
+        <tr>
+          <td>color</td>
+          <td>the colour that text will appear as in the web browser</td>
+          <td>color: red;</td>
+        </tr>
+
+        <th colspan="3">typography:</th>
+
+        <tr>
+            <td>text-align</td>
+            <td>determine the alignment of the text</td>
+            <td>text-align: center;</td>
+        </tr>
+
+        <tr>
+            <td>text-indent</td>
+            <td>indents the first line of text in a paragraph by a set amount</td>
+            <td>text-indent: 2em;</td>
+        </tr>
+
+        <tr>
+            <td>line-height</td>
+            <td>determines the space between line of text in a paragraph 
+                and is set in em</td>
+            <td>line-height: 2em;</td>
+        </tr>
+
+        <tr>
+            <td>text-transform</td>
+            <td>used to make all text either uppercase or lowercase</td>
+            <td>text-transform: uppercase;</td>
+        </tr>
+
+        <tr>
+            <td>letter-spacing</td>
+            <td>sets the spacing between letters in pixels</td>
+            <td>letter-spacing: 3px;</td>
+        </tr>
+
+        <tr>
+            <td>word-spacing</td>
+            <td>sets the spacing between words</td>
+            <td>word-spacing: 5px;</td>
+        </tr>
+
+        <tr>
+            <td>text-decoration</td>
+            <td>determins wheather the text is underlined or overlined</td>
+            <td>text-decoration: underlined;</td>
+        </tr>
+
+      </tbody>
+    </table>
+    </div>
+
+    <div class="borders">
+      <table>
+        <h2 colspan="3">Borders and lists</h2>
+        <tbody>
+
+          <tr>
+            <th>selector</th>
+            <th>function</th>
+            <th>example</th>
+          </tr>
+
+          <th colspan="3">borders:</th>
+
+          <tr>
+            <td >border</td>
+            <td>sets the style of the whole border of an html element 
+                including colour and thinkness</td>
+            <td>border: 2px solid black;</td>
+          </tr>
+
+          <tr>
+            <td>border-top</td>
+            <td>sets the style of just the top side of the border</td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>border-right</td>
+            <td>sets the style of just the right side of the border</td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>border-bottom</td>
+            <td>sets the style of just the bottom side of the border</td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>border-left</td>
+            <td>sets the style of just the left side of the border</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>border-width</td>
+            <td>determines just the width of the border</td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>border-color</td>
+            <td>sets just the colour of the border</td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>border-radius</td>
+            <td>determines how rounded the corners of an element are</td>
+            <td>border-radius: 25%;</td>
+          </tr>
+
+          <th colspan="3">lists:</th>
+
+          <tr>
+            <td>list-style-type</td>
+            <td>determines the style of the bullets or if any are used</td>
+            <td>list-style-type: none;</td>
+          </tr>
+
+          <tr>
+            <td>list-style-position</td>
+            <td>determines how text wraps </td>
+            <td>list-style-position: inside;</td>
+          </tr>
+
+          <tr>
+            <td>list-style-image</td>
+            <td>allows an image to be used as a bullet</td>
+            <td>list-style-image: url(bullet.pgn);</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+    <div class="box">
+      <table>
+        <h2 colspam="3">Box Model</h2>
+        <tbody>
+
+         <tr>
+            <th>selector</th>
+            <th>function</th>
+           <th>example</th>
+         </tr>
+
+         <th colspan="3">inside the box</th>
+
+          <tr>
+            <td>width</td>
+            <td>sets the width of a  htmal element</td>
+            <td>width: 400px;</td>
+          </tr>
+
+          <tr>
+            <td>height</td>
+            <td>sets the height of a htmal element</td>
+            <td>heigh: 150px;</td>
+          </tr>
+
+          <tr>
+            <td>background-color</td>
+            <td>sets the colour of the background of a html element</td>
+            <td>background-color: gray;</td>
+          </tr>
+
+          <tr>
+            <td>background-image</td>
+            <td>allow the background of an element to be set as a 
+                picture or photograph</td>
+            <td>background-image: url(background.png);</td>
+          </tr>
+
+          <tr>
+            <td>background-repeat</td>
+            <td>used tp determine if a background image is repeated or not</td>
+            <td>background-repeat: no-repeat;</td>
+          </tr>
+
+          <th colspan="3">outside the box</th>
+
+          <tr>
+            <td>padding</td>
+            <td>used to create space between the border and the contese of an html element</td>
+            <td>padding: 10px</td>
+          </tr>
+
+          <tr>
+            <td>padding-top</td>
+            <td>sets the style for just the top section of padding</td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>padding-right</td>
+            <td>sets the style of just the right section of padding</td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>padding-bottom</td>
+            <td>sets the style of just the bottom section of padding</td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>padding-left</td>
+            <td>sets the style of just the left section of padding</td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>margin</td>
+            <td>used to creste space outsode of an html element</td>
+            <td>margin: 30px;</td>
+          </tr>
+
+          <tr>
+            <td>margin-top</td>
+            <td>used to set just the top margin</td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>margin-right</td>
+            <td>used to set just the right margin</td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>margin-bottom</td>
+            <td>used to set just the bottom margin</td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>margin-left</td>
+            <td>used to set just the left margin</td>
+            <td></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+    <div class="display">
+      <table>
+        <h2 colspan="3">Display and positioning</h2>
+        <tbody>
+
+          <tr>
+            <th>selector</th>
+            <th>function</th>
+            <th>example</th>
+          </tr>
+
+          <tr>
+            <td>position</td>
+            <td>determines the place of an html element in a wb browser</td>
+            <td>position: fixed;</td>
+          </tr>
+
+          <tr>
+            <td>float</td>
+            <td>stacks html elements horizontaly</td>
+            <td>float: left;</td>
+          </tr>
+
+          <tr>
+            <td>top, right, bottom, and left</td>
+            <td>specifies the fset of an html element in absolute, 
+              fixed and relative positions</td>
+            <td>left: 16px</td>
+          </tr>
+
+          <tr>
+            <td>display</td>
+            <td>sets how an html element is placed in a web browser</td>
+            <td>display: inline-block;</td>
+          </tr>
+
+          <tr>
+            <td>z-index</td>
+            <td>sets the stacking order of html elements that overlap</td>
+            <td>z-index: 1;</td>
+          </tr>
+
+          <tr>
+            <td>overflow</td>
+            <td>sets whet happent to the contese of an element that spills 
+                outside of its set size</td>
+            <td>overflow: hidden;</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+  </body>
+
+  <footer>
+    <p>made by N Harrison</p>
+  </footer>
+</html>
